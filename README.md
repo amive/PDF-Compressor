@@ -1,4 +1,4 @@
-# PDF Compressor nigga
+# PDF Compressor
 
 Compress PDFs using the iLovePDF API.
 
@@ -33,3 +33,4 @@ compressPDF("./input.pdf", PUBLIC_KEY, SECRET_KEY).then((buffer) => {
   require("fs").writeFileSync("./output.pdf", buffer);
 });
 ```
+
